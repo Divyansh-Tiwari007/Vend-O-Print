@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VendoPrint</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="navbar-head">
+      <nav class="navbar navbar-expand-lg bg-body-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">VendoPrint</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../aboutPage/about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/ayushagrawal2601/"  >Ayush Aggrawal</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/divyansh-tiwari-b7bab4206/"  >Divyansh Tiwari</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/rahul-singh-a853b917b/"  >Rahul Singh</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="https://www.linkedin.com/in/revathi-bhat-a-4a6738205/"  >Revathi Bhatt</a>
+                </li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="#" class="nav-link">
+                <textarea id="locationDisplay" readonly></textarea>
+              </a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <!-- <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Add to Cart"
+              aria-label="Search"
+              /> -->
+              <label>
+                <textarea id="locationDisplay" class="btn btn-outline-success" readonly></textarea>
+              
+              <button class="btn btn-outline-success" type="submit" onmouseover="this.style.color='white'" onmouseout="this.style.color='black'">
+                Cart
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="main-body">
+      <div class="body-top">
+        <div class="topbodyLeft-div" >
+          <img class="college-icon" src="../assets/collegeIcon.png" alt="">
+          <a href="../institutePage/institutes.html">
+            <input
+            class="btn btn-primary"
+            type="submit"
+            style ="background-color: yellowgreen; color: black; font-size: 1.5rem;"
+            value="Select Institute"
+            />
+          </a>
+          <!-- <button id="emcee">Begin the Festivities</button> -->
+        </div>
+        
+        <div class="topbodyRight-div">
+          <img class="college-icon" src="../assets/deviceFile.png" alt="">
+          <label for="myFile">Upload from Device : </label>
+          <div class="schoolbody-div">
+            <form action="../pageAttributes/attributes.html" >
+              <input type="file" id="myFile" name="filename" multiple required/>
+              <!-- <button class="file-btn">+</button> -->
+            </br>
+            <!-- <a href="../institutePage/institutes.html">
+              <input
+              class="btn btn-primary"
+              type="button"
+              style ="background-color: yellowgreen; color: black; font-size: 1.5rem;"
+              value="S  "
+              />
+            </a> -->
+          </br>
+          <a href="../pageAttributes/attributes.html">
+            <input class="btn btn-primary file-btn" type="button" value="Submit"
+            style ="background-color: yellowgreen; color: black; margin-left: 30%; font-size: 1.2rem; margin-top: 20px;"/>
+          </a>
+          </form>
+      </div>
+    </div>
+  </div>
+  
+      <!-- <div class="body-bottom">
+        <input class="btn btn-primary" type="submit" value="Submit" />
+      </div> -->
+    </div>
+    <script src="index.js" crossorigin="anonymous"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+    ></script>
+  </body>
+  </html>
+  

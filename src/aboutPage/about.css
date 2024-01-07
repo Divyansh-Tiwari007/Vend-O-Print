@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  /* margin: 20px; */
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainbody-content {
+  margin-top: 20px;
+  width: 90%;
+}
+h1 {
+  color: #333;
+}
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+#mission {
+  font-size: 1.3rem;
+}
+.mission-statement {
+  font-style: italic;
+  margin-top: 20px;
+}

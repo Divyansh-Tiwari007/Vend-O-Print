@@ -1,0 +1,122 @@
+.navbar-head {
+  background-color: rgb(247, 247, 106);
+  height: auto;
+  font-size: larger;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  /* font-size: 1.5rem; */
+  /* color: Grey; */
+}
+.main-body {
+  background-color: rgb(243, 243, 215);
+  height: 90vh;
+  /* font-size: 1.5rem;  */
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+}
+
+.body-top {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* background-color: red; */
+  /* width: fit-content; */
+}
+
+.topbodyLeft-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/yellowBg.jpg");
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid black;
+  filter: hue-rotate(700deg);
+  border-radius: 20px;
+  margin-right: 1px;
+  /* background-size: contain; */
+}
+.topbodyRight-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-image: url("../assets/yellowBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 20px;
+  filter: hue-rotate(90deg);
+  /* filter: blur(2px); */
+}
+
+.body-bottom {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 50%; */
+}
+
+.school-btn {
+  /* width: 200px; */
+  /* height: 200vh; */
+  background-color: yellowgreen;
+  color: black;
+}
+
+.topbodyRight-div label {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  /* margin-bottom: 20px; */
+}
+
+.schoolbody-div {
+  margin-top: 20px;
+}
+
+.schoolbody-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown2 {
+  margin-top: 20px;
+}
+
+#locationDisplay {
+  /* justify-content: center; */
+  margin-top: 2px;
+  height: 35px;
+  width: 500px;
+  /* display: block; */
+  overflow-y: hidden;
+  border-radius: 5px;
+  resize: none;
+  white-space: nowrap;
+  font-size: smaller;
+  margin-right: 10px;
+  /* background-color: white; */
+  color: black;
+}
+#locationDisplay:hover {
+  color: white;
+}
+
+#locationDisplay::-webkit-scrollbar {
+  display: none;
+}
+
+.college-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+/* @media (orientation: landscape) and (max-width: 960px) */
